@@ -4,6 +4,7 @@ const headConf = require('./config/headConf.js');
 
 module.exports = {
   title: 'Run or die',
+  dest: './dist', // 设置输出目录
   description: 'Run or die的文档',
   head: headConf,
   plugins: pluginConf,
